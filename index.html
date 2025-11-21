@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- favicon -->
+  <link rel="shortcut icon" href="./assets/icons/nm.png" type="image/x-icon" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="./dist/css/style.css" />
+
+  <!-- Font Poppins -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Remix Icon -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+
+  <!-- AOS -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+  <title>Katalog Produk</title>
+</head>
+
+<body id="beranda">
+  <!-- Navbar -->
+  <div class="navbar">
+    <div class="container">
+      <div class="navbar-box">
+        <div class="logo">
+          <h1>Ikan Pak Sochib</h1>
+        </div>
+        <ul class="menu">
+          <li>
+            <a href="#beranda">Beranda</a>
+          </li>
+          <li>
+            <a href="#layanan">Layanan</a>
+          </li>
+          <li>
+            <a href="#produk">Produk Kami</a>
+          </li>
+          <li>
+            <a href="#kontak">Kontak</a>
+          </li>
+        </ul>
+
+        <!-- hamburger manu -->
+        <i class="ri-menu-3-line ri-2x"></i>
+      </div>
+    </div>
+  </div>
+  <!-- Navbar -->
+
+  <!-- Hero -->
+  <div class="hero">
+    <div class="container">
+      <div class="hero-box">
+        <div class="box" data-aos="fade-up" data-aos-duration="1000">
+          <h1>
+            Toko <br />
+            Ikan
+          </h1>
+          <p>Menyediakan ikan gurame dan ikan patin langsung dari kolam, untuk info lebih lanjut bisa hubungi kontak di
+            bawah 👇 atau langsung kunjungi tempat kami.</p>
+          <a href="#produk">Detail Produk Kami <i class="ri-arrow-down-line ri-lg"></i> </a>
+        </div>
+        <div class="box" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="500">
+          <video src="./assets/images/ikan.mp4" style="width: 100%; height: auto;" autoplay loop muted></video>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Hero -->
+
+  <!-- Layanan -->
+  <div class="layanan" id="layanan">
+    <div class="container">
+      <div class="layanan-box">
+        <div class="box" data-aos="fade-up" data-aos-duration="1000">
+          <i class="ri-star-fill ri-2x"></i>
+          <h2>Ukuran (1KG)</h2>
+          <p><br>Gurame Besar, isi 1-2 ekor; Gurame sedang, isi 3-5 ekor <br>Patin Besar, isi 1-2 ekor; Patin sedang, isi 3-4 ekor</p>
+        </div>
+        <div class="box" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+          <i class="ri-price-tag-fill ri-2x"></i>
+          <h2>Harga</h2>
+          <p><br>Gurame Besar, Rp80.000/kg; Sedang Rp45.000/kg <br>Patin Besar, Rp60.000/kg; Sedang Rp35.000/kg </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Layanan -->
+
+  <!-- Produk -->
+  <div class="produk" id="produk">
+    <div class="container">
+      <div class="produk-box">
+        <h1 data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">Produk Kami</h1>
+        <ul data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300" data-aos-once="true">
+          <li class="active">Semua Produk</li>
+          <li>Gurame</li>
+          <li>Patin</li>
+        </ul>
+
+        <div class="produk-list">
+          <img src="./assets/images/Gurame1.png" alt="Produk" data-filter="gurame" data-aos="fade-up"
+            data-aos-duration="1000" data-aos-once="true" />
+          <img src="./assets/images/Gurame2.png" alt="Produk" data-filter="gurame" data-aos="fade-up"
+            data-aos-duration="1000" data-aos-once="true" />
+          <img src="./assets/images/Patin1.png" alt="Produk" data-filter="patin" data-aos="fade-up"
+            data-aos-duration="1000" data-aos-once="true" />
+          <img src="./assets/images/Patin2.png" alt="Produk" data-filter="patin" data-aos="fade-up"
+            data-aos-duration="1000" data-aos-once="true" />
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Produk -->
+
+  <!-- Footer -->
+  <div class="footer" id="kontak">
+    <div class="box">
+      <p>&copy; Copyrights 2025 by <span>Ikan Pak Sochib</span>. All Rights Reserved.</p>
+    </div>
+    <div class="box">
+      <a href="https://www.google.com/maps/dir/?api=1&destination=Ikan+Pak+Sochib,+Jl.+Lestari+II,+Lestari,+Kec.+Patianrowo,+Kabupaten+Nganjuk,+Jawa+Timur+64315"
+        target="_blank">
+        <i class="ri-map-pin-2-fill ri-2x"></i>
+      </a>
+      <a href="https://wa.me/6287812333374" target="_blank">
+        <i class="ri-whatsapp-fill ri-2x"></i>
+      </a>
+      <a href="https://facebook.com/wildanibnu30" target="_blank">
+        <i class="ri-facebook-circle-fill ri-2x"></i>
+      </a>
+    </div>
+    <!-- Footer -->
+
+    <!-- JS -->
+    <script src="./dist/js/script.js"></script>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+</body>
+
+</html>
